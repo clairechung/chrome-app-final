@@ -1,6 +1,8 @@
 // mdn 사용법 보고 오면 될듯
 // getCurrentPosition은 ok한 function과 실패한 function을 param으로 받고 ok param을 만들어주면 사용 가능함
 
+const API_KEY = "9f4767cd15686c65213f011a8dc6c1ea";
+
 function onGeoOk(position) {
     const lat = position.coords.latitude;
     const lon = position.coords.longitude;
