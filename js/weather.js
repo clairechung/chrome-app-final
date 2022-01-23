@@ -7,7 +7,7 @@ function onGeoOk(position) {
     const lat = position.coords.latitude;
     const lon = position.coords.longitude;
     // API 사용해서 위도 경도 도시로 변환하고 날씨 정보 받아오기
-    const url = `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric`;
     // &units=metric 는 API문서에서 fahrenheit -> celsius
     fetch(url)
         .then((response) => response.json())
