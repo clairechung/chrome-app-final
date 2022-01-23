@@ -1,2 +1,1 @@
-# js_final
-# chrome-app-final
+# chrome_app_final
