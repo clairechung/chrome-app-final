@@ -7,7 +7,7 @@ console.log(bgImage);
 
 bgImage.src = `img/${chosenImage}`; // <img src="">랑 같은 것
 
-bgImage.classList.add("bgImage");
+bgImage.classList.add("bgImage", "brightness");
 // document.body.appendChild(bgImage); // HTML에 붙여주기 (prepend는 가장 위에 오게)
 document.body.prepend(bgImage);
 
